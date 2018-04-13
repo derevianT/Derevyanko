@@ -1,0 +1,5 @@
+[Wed Feb 21 2018 10:46:59 GMT+0200 (Финляндия (зима))] Layer "google+": Expected end of input but "+" found.
+[Wed Feb 21 2018 10:46:59 GMT+0200 (Финляндия (зима))] Layer "google+": Expected end of input but "+" found.
+[Wed Feb 21 2018 10:46:59 GMT+0200 (Финляндия (зима))] Layer "google+": Expected end of input but "+" found.
+[Wed Feb 21 2018 10:46:59 GMT+0200 (Финляндия (зима))] Layer "google+": Expected end of input but "+" found.
+[Wed Feb 21 2018 10:46:59 GMT+0200 (Финляндия (зима))] Layer "+6281235966914": Expected Either a default asset specification or a layer asset specification but "+" found.

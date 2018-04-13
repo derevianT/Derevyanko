@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mountain</title>
+
+     <link rel="shortcut icon" type="image.png" href="img/favicon.png">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" display="none">
+    <symbol viewBox="0 0 13 25" id="facebook">
+        <path d="M2.823,13.270 C2.823,13.270 2.823,24.007 2.823,24.007 C2.823,24.007 8.174,24.007 8.174,24.007 C8.174,24.007 8.174,13.322 8.174,13.322 C8.174,13.322 11.827,13.322 11.827,13.322 C11.827,13.322 12.711,8.867 12.711,8.867 C12.711,8.867 8.213,8.867 8.213,8.867 C8.213,8.867 8.213,6.771 8.213,5.599 C8.213,5.147 8.459,4.544 9.208,4.544 C10.362,4.544 11.808,4.544 11.808,4.544 C11.808,4.544 11.808,0.007 11.808,0.007 C11.808,0.007 9.465,0.007 6.953,0.007 C5.278,0.007 2.805,2.021 2.805,4.162 C2.805,6.366 2.805,8.740 2.805,8.740 C2.805,8.740 -0.003,8.740 -0.003,8.740 C-0.003,8.740 -0.003,13.251 -0.003,13.251 C-0.003,13.251 2.823,13.270 2.823,13.270 Z"
+              class="cls-2" fill-rule="evenodd"/>
+    </symbol>
+    <symbol viewBox="0 0 24 20" id="twitter">
+        <path d="M23.992,2.315 C23.109,2.706 22.160,2.971 21.164,3.090 C22.181,2.481 22.962,1.516 23.329,0.367 C22.378,0.931 21.324,1.341 20.202,1.562 C19.305,0.604 18.025,0.007 16.608,0.007 C13.889,0.007 11.684,2.211 11.684,4.929 C11.684,5.315 11.728,5.691 11.812,6.052 C7.719,5.846 4.091,3.886 1.663,0.908 C1.239,1.635 0.996,2.481 0.996,3.383 C0.996,5.091 1.866,6.598 3.187,7.480 C2.379,7.454 1.620,7.234 0.957,6.865 C0.956,6.885 0.956,6.905 0.956,6.926 C0.956,9.311 2.653,11.301 4.906,11.753 C4.493,11.866 4.058,11.926 3.609,11.926 C3.291,11.926 2.983,11.895 2.682,11.838 C3.309,13.793 5.127,15.217 7.282,15.256 C5.597,16.577 3.474,17.364 1.167,17.364 C0.769,17.364 0.377,17.341 -0.008,17.295 C2.171,18.692 4.759,19.507 7.540,19.507 C16.597,19.507 21.549,12.006 21.549,5.500 C21.549,5.286 21.545,5.075 21.535,4.864 C22.498,4.169 23.332,3.302 23.992,2.315 Z"
+              class="cls-2" fill-rule="evenodd"/>
+    </symbol>
+    <symbol viewBox="0 0 800 800" id="instagram">
+        <path d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z"/>
+    </symbol>
+</svg>
+<header class="header">
+    <div class="content-inner">
+        <nav>
+            <div class="fullSize-menu clearfix">
+                <ul class="menu part-menu left-part">
+                    <li class="menu__item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#program">Destination</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#challenge">Challenge</a>
+                    </li>
+                </ul>
+                <a href="#" class="logo menu-item">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="menu part-menu right-part">
+                    <li class="menu__item">
+                        <a href="#team">Our team</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#review">Review</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#booking">Booking</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="shortcut-menu clearfix">
+                <a href="#" class="logo-sm">
+                    <img src="img/logo-sm.png" alt="logo">
+                </a>
+                <div class="icon">
+                    <div class="hamburger"></div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#program">Destination</a>
+                    </li>
+                    <li>
+                        <a href="#challenge">Challenge</a>
+                    </li>
+                    <li>
+                        <a href="#team">Our team</a>
+                    </li>
+                    <li>
+                        <a href="#review">Review</a>
+                    </li>
+
+                    <li>
+                        <a href="#booking">Booking</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="title-block">
+            <p>Road to Everest</p>
+            <h1>Nepal</h1>
+        </div>
+        <a href="#" class="start-booking">Start booking</a>
+    </div>
+</header>
+<section id="program" class="program">
+    <div class="content-inner">
+        <p class="question">What should I be prepared for ?</p>
+        <h2>Program</h2>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev1.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev2.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev3.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev1.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev2.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="slide__item">
+                    <div class="img-wrapper">
+                        <img src="img/ev3.jpg" alt="" class="slide-item__image">
+                    </div>
+                    <h5 class="slide-item__title"></h5>
+                </div>
+                <div class="prev-p">
+                    <img src="img/prev.png" alt="prev">
+                </div>
+                <div class="next-p">
+                    <img src="img/next.png" alt="next">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="program__describe program__describe-top">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Accusantium blanditiis commodi dolorem doloribus inventore minima officia,
+                        provident quia sint veniam. Facere quam quas quos sed soluta. Culpa deleniti ea inventore iusto
+                        obcaecati odio qui repellat sint sit. Maiores, qui tempora?
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="program__describe program__describe-bottom">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Accusamus amet animi at atque consectetur dolor doloremque doloribus enim
+                        eveniet fugit hic illum, incidunt ipsam laborum molestias natus necessitatibus nemo
+                        perspiciatis, possimus quae quas repellendus repudiandae sequi totam velit veniam voluptates!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="challenge" class="challenge">
+    <div class="white">
+        <div class="content-inner">
+            <p class="question">Are you ready to overpass your capacities</p>
+            <h2 class="h2-white">Challenge</h2>
+            <div class="circle-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="circle">
+                                <span class="spincrement">8484</span>
+                                <span> M</span>
+                            </div>
+                            <h5>Highest Altitude
+                                during the trip</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="circle">
+                                <span class="spincrement">6.5</span>
+                                <span> %</span>
+                            </div>
+                            <h5>of Oxygen at
+                                the summit</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="circle">
+                                <span class="spincrement">-35</span>
+                                <span> °C</span>
+                            </div>
+                            <h5>Average temperature
+                                during the climb</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="circle">
+                                <span class="spincrement">8</span>
+                                <span> H</span>
+                            </div>
+                            <h5>of Exhausting effort
+                                to reach the summit</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team" class="team">
+    <div class="content-inner">
+        <p class="question">Who is going to escort and keep you alive ? </p>
+        <h2>The team</h2>
+        <div class="slider-wrapper">
+            <div class="slider-team">
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t1.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t2.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t3.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t1.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t2.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="slide-team__item">
+                    <div class="img-wrapper">
+                        <img src="img/t3.jpg" alt="" class="slide-item__image">
+                    </div>
+                </div>
+                <div class="prev">
+                    <img src="img/prev.png" alt="prev">
+                </div>
+                <div class="next">
+                    <img src="img/next.png" alt="next">
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            <div class="otz-sl">
+                <h4>John Dou</h4>
+                <span>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при </span>
+            </div>
+            <div class="otz-sl">
+                <h4>Bruse Lee</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ex exercitationem illum laboriosam recusandae! A, ab asperiores ipsum nihil nobis quaerat saepe sed ullam vero! Et fuga tempora vitae voluptas! </span>
+            </div>
+            <div class="otz-sl">
+                <h4>Antony Brawn</h4>
+                <span>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при </span>
+            </div>
+            <div class="otz-sl">
+                <h4>John Dou</h4>
+                <span>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при </span>
+            </div>
+            <div class="otz-sl">
+                <h4>Bruse Lee</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ex exercitationem illum laboriosam recusandae! A, ab asperiores ipsum nihil nobis quaerat saepe sed ullam vero! Et fuga tempora vitae voluptas! </span>
+            </div>
+            <div class="otz-sl">
+                <h4>Antony Brawn</h4>
+                <span>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при </span>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="review" class="review">
+    <div class="white-rev">
+        <div class="content-inner">
+            <p class="question">What did others thought about it ?</p>
+            <h2>Reviews</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="comment-block">
+                            <h3>Awesome !</h3>
+                            <div class="comment">Maecenas porta mi in nisi ultricies congue. Suspendisse vel fermentum
+                                lectus. Curabitur non nisi sit amet ante hendrerit condimentum. Duis sagittis nisl nec
+                                erat sollicitudin, id iaculis ante consectetur. Duis vestibulum mi eget metus gravida,
+                                non sollicitudin est malesuada.
+                            </div>
+                            <div class="client">
+                                <div class="client__wrapper-img">
+                                    <img src="img/portreit1.jpg" alt="photo" class="client__img">
+                                </div>
+                                <span class="client__name">Harvey Spectr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="comment-block m-top">
+                            <h3>What a Trip !</h3>
+                            <div class="comment">Maecenas porta mi in nisi ultricies congue. Suspendisse vel fermentum
+                                lectus. Curabitur non nisi sit amet ante hendrerit condimentum. Duis sagittis nisl nec
+                                erat sollicitudin, id iaculis ante consectetur. Duis vestibulum mi eget metus gravida,
+                                non sollicitudin est malesuada.
+                            </div>
+                            <div class="client">
+                                <div class="client__wrapper-img">
+                                    <img src="img/portreit2.jpg" alt="photo" class="client__img">
+                                </div>
+                                <span class="client__name">Michael Ross</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="comment-block m-top">
+                            <h3>Best Experience of my Life !</h3>
+                            <div class="comment">Maecenas porta mi in nisi ultricies congue. Suspendisse vel fermentum
+                                lectus. Curabitur non nisi sit amet ante hendrerit condimentum. Duis sagittis nisl nec
+                                erat sollicitudin, id iaculis ante consectetur. Duis vestibulum mi eget metus gravida,
+                                non sollicitudin est malesuada.
+                            </div>
+                            <div class="client">
+                                <div class="client__wrapper-img">
+                                    <img src="img/portreit5.jpg" alt="photo" class="client__img">
+                                </div>
+                                <span class="client__name">Louis Litt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="booking" class="booking">
+    <div class="content-inner">
+        <p class="question">Want to be a part of it?</p>
+        <h2>Booking</h2>
+        <form action="#" class="form">
+            <input type="text" class="form__input" placeholder="Your name...">
+            <input type="email" class="form__input" placeholder="Your email Adress...">
+            <button class="form__button">Book your trip</button>
+        </form>
+        <p class="social__title">Invite your friends</p>
+        <div class="social">
+            <a href="#" class="social__link">
+                <svg class="social__icon">
+                    <use xlink:href="#twitter"/>
+                </svg>
+            </a>
+            <a href="#" class="social__link">
+                <svg class="social__icon">
+                    <use xlink:href="#facebook"/>
+                </svg>
+            </a>
+            <a href="#" class="social__link">
+                <svg class="social__icon">
+                    <use xlink:href="#instagram"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+</section>
+<footer class="footer">
+    <div class="content-inner">
+        <p>Mountain Adventure - All Right Reserved - Do not Copy - Copyright 2018</p>
+    </div>
+</footer>
+<div class="top"></div>
+<script src="js/jquery-3.2.1.min.js" defer></script>
+<script src="js/bootstrap.min.js" defer></script>
+<script src="js/slick.min.js" defer></script>
+<script src="js/waypoints.min.js" defer></script>
+<script src="js/animate-css.js" defer></script>
+<script src="js/jquery.spincrement.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
